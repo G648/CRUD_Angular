@@ -1,0 +1,11 @@
+<form #loginForm="ngForm" (ngSubmit)="delete()">
+  <div class="main">
+    <div class="input-fields">
+      <input name="name" ngModel placeholder="Name" id="name" type="text" class="input-field" />
+    </div>
+    <div class="input-fields">
+      <input name="age" ngModel placeholder="Age" id="age" type="number" class="input-field" />
+    </div>
+    <button>Delete Data </button>
+  </div>
+</form>
